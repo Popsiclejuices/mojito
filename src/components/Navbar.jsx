@@ -1,4 +1,3 @@
-import React from "react";
 import { navLinks } from "../constants";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
@@ -17,7 +16,7 @@ const Navbar = () => {
         backgroundColor: "transparent",
       },
       {
-        bacgkgroundColor: "#0000050",
+        backgroundColor: "#00000050",
         backgroundFilter: "blur(10px)",
         duration: 1,
         ease: "power1.inOut",
@@ -29,7 +28,7 @@ const Navbar = () => {
     <nav>
       <div>
         <a href="#home" className="flex items-center gap-2">
-          <img src="/images/logo.png" alt="" className="h-12" />
+          <img src="/images/logo.png" alt="logo" className="h-12" />
           <p>Zenbucks Cafe</p>
         </a>
         <ul>
