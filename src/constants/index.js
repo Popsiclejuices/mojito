@@ -1,7 +1,7 @@
 const navLinks = [
   {
     id: "cocktails",
-    title: "Cocktails",
+    title: "Drinks",
   },
   {
     id: "about",
@@ -9,23 +9,23 @@ const navLinks = [
   },
   {
     id: "work",
-    title: "The Art",
+    title: "Location",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Contacts",
   },
 ];
 
 const cocktailLists = [
   {
-    name: "Chapel Hill Shiraz",
-    country: "AU",
-    detail: "Battle",
-    price: "$10",
+    name: "Caramel Machiato",
+    country: "US",
+    detail: "Milktea",
+    price: "160",
   },
   {
-    name: "Caten Malbee",
+    name: "Matcha",
     country: "AU",
     detail: "Battle",
     price: "$49",
