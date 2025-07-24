@@ -44,6 +44,20 @@ const Menu = () => {
     );
   }, [currentIndex]);
 
+  useGSAP(() => {
+    const parallaxTimeLine = gsap.timeline({
+      scrollTrigger: {
+        trigger: "#menu",
+        start: "top 95%",
+        end: "bottom 90%",
+        scrub: true,
+      },
+    });
+    parallaxTimeLine
+      .from("#m-left-leaf", { x: -100, y: 100 })
+      .from("#m-right-leaf", { x: 100, y: 100 });
+  });
+
   const totalCocktails = allCocktails.length;
 
   const goToSlide = (index) => {
