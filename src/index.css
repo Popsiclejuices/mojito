@@ -43,6 +43,13 @@ body {
   color: transparent;
 }
 
+.slick-slide > div {
+  margin: 0 15px; /* Adjust this value for your desired gap */
+}
+.slick-list {
+  margin: 0 -10px; /* Compensate for the margin on slides */
+}
+
 @utility radial-gradient {
   background: radial-gradient(
     circle at center,
